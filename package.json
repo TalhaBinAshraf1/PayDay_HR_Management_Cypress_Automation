@@ -1,0 +1,37 @@
+{
+  "name": "skill-assessment",
+  "version": "1.0.0",
+  "description": "Gain Solution Skill Assessment Cypress Task",
+  "main": "index.js",
+  "scripts": {
+    
+    "cypress": "cypress open",
+    "cy:headless": "cypress run --browser chrome --headless"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TalhaBinAshraf1/Skill-Assessment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TalhaBinAshraf1/Skill-Assessment/issues"
+  },
+  "homepage": "https://github.com/TalhaBinAshraf1/Skill-Assessment#readme",
+  "devDependencies": {
+    "cypress": "^12.4.0",
+    "cypress-mochawesome-reporter": "^3.2.3",
+    "cypress-multi-reporters": "^1.5.0",
+    "mochawesome": "^7.0.1",
+    "mochawesome-merge": "^4.2.1",
+    "mochawesome-report-generator": "^6.0.1",
+    "prettier": "2.7.1"
+  },
+  "dependencies": {
+    "chai-colors": "^1.0.1",
+    "cypress-real-events": "^1.7.4",
+    "eslint": "^8.15.0",
+    "eslint-config-airbnb-base": "^15.0.0"
+  }
+}
