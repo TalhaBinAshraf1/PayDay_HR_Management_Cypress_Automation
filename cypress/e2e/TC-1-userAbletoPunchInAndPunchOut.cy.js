@@ -77,7 +77,9 @@ describe("User Should Able to Punch In and Punch Out", () =>{
       if(dashboard.punchoutSubmitButton().should("be.visible")){
         dashboard.punchoutSubmitButton().click();
         cy.log(utilites.buttonPress)
-      }
+      }else {
+        cy.visit("/");
+        }
 
     });
 

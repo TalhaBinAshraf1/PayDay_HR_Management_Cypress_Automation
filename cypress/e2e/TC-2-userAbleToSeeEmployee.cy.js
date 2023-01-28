@@ -23,7 +23,10 @@ describe("User Should Able to See Employee", () =>{
         if(dashboard.totalEmployeeNumber().should("be.visible")){
             dashboard.totalEmployeeNumber().should("include.text","Total employees");
             cy.log(utilites.buttonPress)
-          }
+          }else {
+            cy.visit("/");
+            }
+
     
         });
 

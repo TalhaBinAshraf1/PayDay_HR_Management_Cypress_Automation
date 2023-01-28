@@ -1,3 +1,4 @@
+import { faker } from '@faker-js/faker';
 const utilites = {
     logOutMenu: ["My profile", "Notifications", "Settings", "Log out"],
 
@@ -7,6 +8,9 @@ const utilites = {
     elementVisibleText : "Element is visible ",
     buttonPress : "Button press Successfully ",
 
+    dummyfirstname: faker.name.firstName(),
+    dummylastname: faker.name.lastName(),
+    dummyemail :  faker.internet.email(),
   
   };
   

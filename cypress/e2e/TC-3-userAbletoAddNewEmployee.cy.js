@@ -48,25 +48,25 @@ describe("User Able to Add New Employee", () =>{
 
         employee.firstNameInputField()
         .should("be.visible")
-        .type("Cypress");
+        .type(utilites.dummyfirstname);
 
         employee.lastNameInputField()
         .should("be.visible")
-        .type("Test");
+        .type(utilites.dummylastname);
 
         employee.emialInputField()
         .should("be.visible")
-        .type("Test@gmail.com");
+        .type(utilites.dummyemail);
 
         employee.maleRedioButton()
         .should("be.visible")
         .should("not.be.checked")
         .click();
 
-        employee.employeeIDInputField()
-         .should("be.visible")
-         .clear()
-         .type("EMP-4")
+        // employee.employeeIDInputField()
+        //  .should("be.visible")
+        //  .clear()
+        //  .type("EMP-169")
 
         employee.departmentDropdown()
         .should("be.visible")
@@ -80,9 +80,15 @@ describe("User Able to Add New Employee", () =>{
         .should("be.visible")
         .select("Permanent");
 
-        employee.roleInputField
+        employee.roleInputField()
         .should("be.visible")
-        .type("Manager {enter}");
+        .click();
+        employee.roleTypeField()
+        .should("be.visible")
+        .type("Manager");
+        employee.roleSelect()
+        .should("be.visible")
+        .click();
 
         employee.salaryInputField()
          .should("be.visible")
