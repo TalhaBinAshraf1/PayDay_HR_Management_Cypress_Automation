@@ -5,7 +5,6 @@
                2. Data Driven Concept   
                3. Mocha Awesome Report Generatiuon 
 
-
 Test Case Name: TC-1-userAbletoPunchInAndPunchOut
 
 Test Steps:
@@ -47,3 +46,13 @@ Test Steps:
      4. Verify that the page status code is not 400.
      5. Verify that "View Details" button is visible.
      6. Verify that "Employee Details" is visible.
+
+
+
+###Cypress Test Run Vedio
+
+https://user-images.githubusercontent.com/35797610/215286709-ff73b6f0-2e95-4f43-be0f-54ca645c2473.mp4
+
+
+
+ 
