@@ -5,6 +5,11 @@ const employee = {
     //All Employee Locator
     allEmployeesHeaderText: () => cy.get("h4" , {timeout :1000}),
     addEmployeeButton: () => cy.get("[class='btn btn-success mr-2']" , {timeout :1000}),
+    viewDetailsButton: () => cy.get(' div#employee-table > div:nth-of-type(1) .btn.btn-transparent-primary.rounded-pill' , {timeout :1000}),
+    employeeDetailsText: () => cy.get(".align-items-center [class='mb-0']" , {timeout :1000}),
+
+   
+
 
     //Add Employee Form Locators
     firstNameInputField: () => cy.get("[id='formData.first_name']"  , {timeout :1000}),
@@ -18,12 +23,15 @@ const employee = {
     designationDropdown: () => cy.get("[id='formData.designation_id']" , {timeout :1000}),
     employmentStatusDropdown: () => cy.get("[id='formData.employment_status_id']" , {timeout :1000}),
     roleInputField: () => cy.get('[id="dropdownMenuLink"]' , {timeout :1000}),
+    roleTypeField: () => cy.get('.chips-dropdown-menu.dropdown-menu.py-0.show  .form-control' , {timeout :1000}),
+    roleSelect: () => cy.get('.chips-dropdown-menu.dropdown-menu.py-0.show  .dropdown-item' , {timeout :1000}),
     salaryInputField: () => cy.get('[id="formData.salary"]' , {timeout :1000}),
     joiningDateInputField: () => cy.get('div:nth-of-type(8) .form-control' , {timeout :1000}),
     addButton: () => cy.get('[class="btn text-center btn-primary"]' , {timeout :1000}),
     cancelButton: () => cy.get('[class="btn btn-secondary mr-2"]' , {timeout :1000}),
 
 
+    
 
 
 

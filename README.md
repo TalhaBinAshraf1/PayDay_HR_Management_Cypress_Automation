@@ -1,5 +1,11 @@
 # Skill-Assessment Task
 
+# Include in this project: 
+               1.Page object Model 
+               2. Data Driven Concept   
+               3. Mocha Awesome Report Generatiuon 
+
+
 Test Case Name: TC-1-userAbletoPunchInAndPunchOut
 
 Test Steps:
@@ -8,7 +14,7 @@ Test Steps:
      3. Verify that the page status code is 200. 
      4. Verify that the page status code is not 400.
      5. Verify that user can log in with valid credential.
-     6. Verify the “Punch in” button is visible and verify “Punch In” css(background color, border color,                 font size, text) properties. 
+     6. Verify the “Punch in” button is visible and verify “Punch In” css(background color, border color, font size, text) properties. 
      7. User Able to Punch In and Punch Out 
 
 Test Case Name: TC-2-userAbleToSeeEmployee
@@ -39,3 +45,5 @@ Test Steps:
      2. Verify that login page is visible successfully. 
      3. Verify that the page status code is 200. 
      4. Verify that the page status code is not 400.
+     5. Verify that "View Details" button is visible.
+     6. Verify that "Employee Details" is visible.
