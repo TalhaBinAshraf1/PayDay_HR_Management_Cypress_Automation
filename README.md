@@ -34,7 +34,6 @@ Test Steps: <ol>
     <li> Verify that “Add Employee” button is visible on the page. </li>
     <li> Verify that user able to add new employee by filling all corresponding input field </li>
 </ol>
-
 Test Case Name: TC-4-userAbletoSeeEmployeeDetails
 Test Steps: <ol>
   <li> Navigate to the URL: https://www.qa.paydaytest.gainhq.com/hrm/admin/users/login </li>
