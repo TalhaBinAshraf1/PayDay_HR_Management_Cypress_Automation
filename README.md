@@ -7,9 +7,7 @@ Project URL: https://www.qa.paydaytest.gainhq.com/hrm/admin/users/login
                3. Mocha Awesome Report Generation. 
 
 Test Case Name: TC-1-userAbletoPunchInAndPunchOut
-
- Test Steps:
- <ol>
+ Test Steps: <ol>
     <li> Navigate to the URL: https://www.qa.paydaytest.gainhq.com/hrm/admin/users/login.</li>    
     <li> Verify that login page is visible successfully. </li> 
     <li> Verify that the page status code is 200. </li>
@@ -19,9 +17,7 @@ Test Case Name: TC-1-userAbletoPunchInAndPunchOut
     <li> User Able to Punch In and Punch Out </li>
 </ol>
 Test Case Name: TC-2-userAbleToSeeEmployee
-
- Test Steps:
- <ol>
+ Test Steps: <ol>
     <li> Navigate to the URL: https://www.qa.paydaytest.gainhq.com/hrm/admin/users/login </li>
     <li> Verify that login page is visible successfully. </li>
     <li> Verify that the page status code is 200. </li>
@@ -29,9 +25,7 @@ Test Case Name: TC-2-userAbleToSeeEmployee
     <li> Verify that user Able to see total employee. </li>
  </ol>
 Test Case Name: TC-3-userAbletoAddNewEmployee.cy
-
-Test Steps:
-<ol>
+Test Steps: <ol>
     <li> Navigate to the URL: https://www.qa.paydaytest.gainhq.com/hrm/admin/users/login </li>
     <li> Verify that login page is visible successfully. </li>
     <li> Verify that the page status code is 200. </li>
@@ -42,9 +36,7 @@ Test Steps:
 </ol>
 
 Test Case Name: TC-4-userAbletoSeeEmployeeDetails
-
-Test Steps:
-<ol>
+Test Steps: <ol>
   <li> Navigate to the URL: https://www.qa.paydaytest.gainhq.com/hrm/admin/users/login </li>
   <li> Verify that login page is visible successfully. </li>
   <li> Verify that the page status code is 200. </li>
