@@ -6,7 +6,7 @@ Project URL: https://www.qa.paydaytest.gainhq.com/hrm/admin/users/login
                2. Data-Driven Concept.
                3. Mocha Awesome Report Generation. 
 
-Test Case Name: TC-1-userAbletoPunchInAndPunchOut
+### Test Case Name: TC-1-userAbletoPunchInAndPunchOut
 
 Test Steps: <ol>
     <li> Navigate to the URL: https://www.qa.paydaytest.gainhq.com/hrm/admin/users/login </li>
@@ -18,7 +18,7 @@ Test Steps: <ol>
     <li> User Able to Punch In and Punch Out </li>
 </ol>
 
-Test Case Name: TC-2-userAbleToSeeEmployee
+### Test Case Name: TC-2-userAbleToSeeEmployee
 
 Test Steps: <ol>
     <li> Navigate to the URL: https://www.qa.paydaytest.gainhq.com/hrm/admin/users/login </li>
@@ -28,7 +28,7 @@ Test Steps: <ol>
     <li> Verify that user Able to see total employee. </li>
  </ol>
  
-Test Case Name: TC-3-userAbletoAddNewEmployee.cy
+### Test Case Name: TC-3-userAbletoAddNewEmployee.cy
 
 Test Steps: <ol>
     <li> Navigate to the URL: https://www.qa.paydaytest.gainhq.com/hrm/admin/users/login </li>
@@ -40,7 +40,7 @@ Test Steps: <ol>
     <li> Verify that user able to add new employee by filling all corresponding input field </li>
 </ol>
 
-Test Case Name: TC-4-userAbletoSeeEmployeeDetails
+### Test Case Name: TC-4-userAbletoSeeEmployeeDetails
 
 Test Steps: <ol>
   <li> Navigate to the URL: https://www.qa.paydaytest.gainhq.com/hrm/admin/users/login </li>
