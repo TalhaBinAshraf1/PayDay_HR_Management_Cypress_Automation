@@ -9,7 +9,7 @@ Project URL : https://www.qa.paydaytest.gainhq.com/hrm/admin/users/login
 Test Case Name: TC-1-userAbletoPunchInAndPunchOut
 
  Test Steps:
-     1. Navigate to the URL: https://www.qa.paydaytest.gainhq.com/hrm/admin/users/login
+     1. Navigate to the URL: https://www.qa.paydaytest.gainhq.com/hrm/admin/users/login </br>
      2. Verify that login page is visible successfully. 
      3. Verify that the page status code is 200. 
      4. Verify that the page status code is not 400.
