@@ -7,8 +7,9 @@ Project URL: https://www.qa.paydaytest.gainhq.com/hrm/admin/users/login
                3. Mocha Awesome Report Generation. 
 
 Test Case Name: TC-1-userAbletoPunchInAndPunchOut
- Test Steps: <ol>
-    <li> Navigate to the URL: https://www.qa.paydaytest.gainhq.com/hrm/admin/users/login.</li>    
+
+Test Steps: <ol>
+    <li> Navigate to the URL: https://www.qa.paydaytest.gainhq.com/hrm/admin/users/login </li>    
     <li> Verify that login page is visible successfully. </li> 
     <li> Verify that the page status code is 200. </li>
     <li> Verify that the page status code is not 400.</li>
@@ -16,15 +17,19 @@ Test Case Name: TC-1-userAbletoPunchInAndPunchOut
     <li> Verify the “Punch in” button is visible and verify “Punch In” css(background color, border color, font size, text) properties. </li> 
     <li> User Able to Punch In and Punch Out </li>
 </ol>
+
 Test Case Name: TC-2-userAbleToSeeEmployee
- Test Steps: <ol>
+
+Test Steps: <ol>
     <li> Navigate to the URL: https://www.qa.paydaytest.gainhq.com/hrm/admin/users/login </li>
     <li> Verify that login page is visible successfully. </li>
     <li> Verify that the page status code is 200. </li>
     <li> Verify that the page status code is not 400. </li>
     <li> Verify that user Able to see total employee. </li>
  </ol>
+ 
 Test Case Name: TC-3-userAbletoAddNewEmployee.cy
+
 Test Steps: <ol>
     <li> Navigate to the URL: https://www.qa.paydaytest.gainhq.com/hrm/admin/users/login </li>
     <li> Verify that login page is visible successfully. </li>
@@ -34,7 +39,9 @@ Test Steps: <ol>
     <li> Verify that “Add Employee” button is visible on the page. </li>
     <li> Verify that user able to add new employee by filling all corresponding input field </li>
 </ol>
+
 Test Case Name: TC-4-userAbletoSeeEmployeeDetails
+
 Test Steps: <ol>
   <li> Navigate to the URL: https://www.qa.paydaytest.gainhq.com/hrm/admin/users/login </li>
   <li> Verify that login page is visible successfully. </li>
