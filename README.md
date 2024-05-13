@@ -8,7 +8,7 @@ Project URL : https://www.qa.paydaytest.gainhq.com/hrm/admin/users/login
 
 Test Case Name: TC-1-userAbletoPunchInAndPunchOut
 
-# Test Steps:
+### Test Steps:
      1. Navigate to the URL: https://www.qa.paydaytest.gainhq.com/hrm/admin/users/login
      2. Verify that login page is visible successfully. 
      3. Verify that the page status code is 200. 
@@ -19,7 +19,7 @@ Test Case Name: TC-1-userAbletoPunchInAndPunchOut
 
 Test Case Name: TC-2-userAbleToSeeEmployee
 
-# Test Steps:
+### Test Steps:
      1. Navigate to the URL: https://www.qa.paydaytest.gainhq.com/hrm/admin/users/login
      2. Verify that login page is visible successfully. 
      3. Verify that the page status code is 200. 
@@ -28,7 +28,7 @@ Test Case Name: TC-2-userAbleToSeeEmployee
 
 Test Case Name: TC-3-userAbletoAddNewEmployee.cy
 
-# Test Steps:
+### Test Steps:
      1. Navigate to the URL: https://www.qa.paydaytest.gainhq.com/hrm/admin/users/login
      2. Verify that login page is visible successfully. 
      3. Verify that the page status code is 200. 
@@ -40,7 +40,7 @@ Test Case Name: TC-3-userAbletoAddNewEmployee.cy
 
 Test Case Name: TC-4-userAbletoSeeEmployeeDetails
 
-# Test Steps:
+### Test Steps:
      1. Navigate to the URL: https://www.qa.paydaytest.gainhq.com/hrm/admin/users/login
      2. Verify that login page is visible successfully. 
      3. Verify that the page status code is 200. 
