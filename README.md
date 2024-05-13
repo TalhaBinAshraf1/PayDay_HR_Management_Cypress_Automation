@@ -1,54 +1,57 @@
 # Skill-Assessment Task 
-Project URL : https://www.qa.paydaytest.gainhq.com/hrm/admin/users/login
+Project URL: https://www.qa.paydaytest.gainhq.com/hrm/admin/users/login
 
 # Include in this project: 
-               1.Page object Model 
-               2. Data Driven Concept   
-               3. Mocha Awesome Report Generatiuon 
+               1. Page object Model.
+               2. Data-Driven Concept.
+               3. Mocha Awesome Report Generation. 
 
 Test Case Name: TC-1-userAbletoPunchInAndPunchOut
 
  Test Steps:
  <ol>
-    <li> 1. Navigate to the URL: https://www.qa.paydaytest.gainhq.com/hrm/admin/users/login.</li>    
-    <li> 2. Verify that login page is visible successfully. </li> 
-    <li> 3. Verify that the page status code is 200. </li>
-    <li> 4. Verify that the page status code is not 400.</li>
-    <li> 5. Verify that user can log in with valid credential.</li>
-    <li> 6. Verify the “Punch in” button is visible and verify “Punch In” css(background color, border color, font size, text) properties. </li> 
-    <li> 7. User Able to Punch In and Punch Out </li>
+    <li> Navigate to the URL: https://www.qa.paydaytest.gainhq.com/hrm/admin/users/login.</li>    
+    <li> Verify that login page is visible successfully. </li> 
+    <li> Verify that the page status code is 200. </li>
+    <li> Verify that the page status code is not 400.</li>
+    <li> Verify that user can log in with valid credential.</li>
+    <li> Verify the “Punch in” button is visible and verify “Punch In” css(background color, border color, font size, text) properties. </li> 
+    <li> User Able to Punch In and Punch Out </li>
 </ol>
 Test Case Name: TC-2-userAbleToSeeEmployee
 
  Test Steps:
-     1. Navigate to the URL: https://www.qa.paydaytest.gainhq.com/hrm/admin/users/login
-     2. Verify that login page is visible successfully. 
-     3. Verify that the page status code is 200. 
-     4. Verify that the page status code is not 400.
-     5.  Verify that user Able to see total employee. 
-
+ <ol>
+    <li> Navigate to the URL: https://www.qa.paydaytest.gainhq.com/hrm/admin/users/login </li>
+    <li> Verify that login page is visible successfully. </li>
+    <li> Verify that the page status code is 200. </li>
+    <li> Verify that the page status code is not 400. </li>
+    <li> Verify that user Able to see total employee. </li>
+ </ol>
 Test Case Name: TC-3-userAbletoAddNewEmployee.cy
 
 Test Steps:
-     1. Navigate to the URL: https://www.qa.paydaytest.gainhq.com/hrm/admin/users/login
-     2. Verify that login page is visible successfully. 
-     3. Verify that the page status code is 200. 
-     4. Verify that the page status code is not 400.
-     5.  Verify that employee menu and items of the menu section.
-     6.  Verify that “Add Employee” button is visible on the page. 
-     7.  Verify that user able to add new employee by filling all corresponding input field
-
+<ol>
+    <li> Navigate to the URL: https://www.qa.paydaytest.gainhq.com/hrm/admin/users/login </li>
+    <li> Verify that login page is visible successfully. </li>
+    <li> Verify that the page status code is 200. </li>
+    <li> Verify that the page status code is not 400. </li>
+    <li> Verify that employee menu and items of the menu section. </li>
+    <li> Verify that “Add Employee” button is visible on the page. </li>
+    <li> Verify that user able to add new employee by filling all corresponding input field </li>
+</ol>
 
 Test Case Name: TC-4-userAbletoSeeEmployeeDetails
 
 Test Steps:
-     1. Navigate to the URL: https://www.qa.paydaytest.gainhq.com/hrm/admin/users/login
-     2. Verify that login page is visible successfully. 
-     3. Verify that the page status code is 200. 
-     4. Verify that the page status code is not 400.
-     5. Verify that "View Details" button is visible.
-     6. Verify that "Employee Details" is visible.
-
+<ol>
+  <li> Navigate to the URL: https://www.qa.paydaytest.gainhq.com/hrm/admin/users/login </li>
+  <li> Verify that login page is visible successfully. </li>
+  <li> Verify that the page status code is 200. </li>
+  <li> Verify that the page status code is not 400. </li>
+  <li> Verify that "View Details" button is visible. </li>
+  <li> Verify that "Employee Details" is visible. </li>
+</ol>
 
 
 ###Cypress Test Run Vedio
