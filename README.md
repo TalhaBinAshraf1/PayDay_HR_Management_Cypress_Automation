@@ -52,7 +52,7 @@ Test Steps: <ol>
 </ol>
 
 
-###Cypress Test Run Vedio
+### Cypress Test Run Vedio
 
 https://user-images.githubusercontent.com/35797610/215286709-ff73b6f0-2e95-4f43-be0f-54ca645c2473.mp4
 
